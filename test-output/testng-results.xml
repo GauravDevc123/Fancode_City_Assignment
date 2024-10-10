@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="4" failed="0" skipped="7">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-10T21:41:38 IST" name="Suite" finished-at="2024-10-10T21:41:43 IST" duration-ms="5239">
+    <groups>
+    </groups>
+    <test started-at="2024-10-10T21:41:38 IST" name="FancodeUsersTestModule" finished-at="2024-10-10T21:41:43 IST" duration-ms="5239">
+      <class name="Testing.Fancode_City_Assignment.FancodeUsersTest">
+        <test-method is-config="true" signature="setReporter()[pri:0, instance:Testing.Fancode_City_Assignment.FancodeUsersTest@6e9175d8]" started-at="2024-10-10T21:41:37 IST" name="setReporter" finished-at="2024-10-10T21:41:38 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReporter -->
+        <test-method is-config="true" signature="ConstructAPIEndpoints(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testing.Fancode_City_Assignment.FancodeUsersTest@6e9175d8]" started-at="2024-10-10T21:41:38 IST" name="ConstructAPIEndpoints" finished-at="2024-10-10T21:41:38 IST" duration-ms="483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://jsonplaceholder.typicode.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/users]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/todos]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/posts]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[/comments]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[/albums]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[/photos]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConstructAPIEndpoints -->
+        <test-method is-config="true" signature="geTodosList()[pri:0, instance:Testing.Fancode_City_Assignment.FancodeUsersTest@6e9175d8]" started-at="2024-10-10T21:41:38 IST" name="geTodosList" finished-at="2024-10-10T21:41:39 IST" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geTodosList -->
+        <test-method is-config="true" signature="getAlbumsList()[pri:0, instance:Testing.Fancode_City_Assignment.FancodeUsersTest@6e9175d8]" started-at="2024-10-10T21:41:39 IST" name="getAlbumsList" finished-at="2024-10-10T21:41:40 IST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlbumsList -->
+        <test-method is-config="true" signature="getCommentsList()[pri:0, instance:Testing.Fancode_City_Assignment.FancodeUsersTest@6e9175d8]" started-at="2024-10-10T21:41:40 IST" name="getCommentsList" finished-at="2024-10-10T21:41:40 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCommentsList -->
+        <test-method is-config="true" signature="getPhotosList()[pri:0, instance:Testing.Fancode_City_Assignment.FancodeUsersTest@6e9175d8]" started-at="2024-10-10T21:41:40 IST" name="getPhotosList" finished-at="2024-10-10T21:41:42 IST" duration-ms="1611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPhotosList -->
+        <test-method is-config="true" signature="getPostsList()[pri:0, instance:Testing.Fancode_City_Assignment.FancodeUsersTest@6e9175d8]" started-at="2024-10-10T21:41:42 IST" name="getPostsList" finished-at="2024-10-10T21:41:42 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPostsList -->
+        <test-method is-config="true" signature="getUsersList()[pri:0, instance:Testing.Fancode_City_Assignment.FancodeUsersTest@6e9175d8]" started-at="2024-10-10T21:41:42 IST" name="getUsersList" finished-at="2024-10-10T21:41:43 IST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersList -->
+        <test-method signature="validateSufficientUsersForFancodeCity()[pri:0, instance:Testing.Fancode_City_Assignment.FancodeUsersTest@6e9175d8]" started-at="2024-10-10T21:41:43 IST" name="validateSufficientUsersForFancodeCity" finished-at="2024-10-10T21:41:43 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSufficientUsersForFancodeCity -->
+        <test-method signature="TestTodosCompletionForFancodeCityUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.Float)[pri:0, instance:Testing.Fancode_City_Assignment.FancodeUsersTest@6e9175d8]" started-at="2024-10-10T21:41:43 IST" name="TestTodosCompletionForFancodeCityUsers" data-provider="usersData" finished-at="2024-10-10T21:41:43 IST" depends-on-methods="Testing.Fancode_City_Assignment.FancodeUsersTest.validateSufficientUsersForFancodeCity" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-37.3159]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[81.1496]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTodosCompletionForFancodeCityUsers -->
+        <test-method signature="TestTodosCompletionForFancodeCityUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.Float)[pri:0, instance:Testing.Fancode_City_Assignment.FancodeUsersTest@6e9175d8]" started-at="2024-10-10T21:41:43 IST" name="TestTodosCompletionForFancodeCityUsers" data-provider="usersData" finished-at="2024-10-10T21:41:43 IST" depends-on-methods="Testing.Fancode_City_Assignment.FancodeUsersTest.validateSufficientUsersForFancodeCity" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-43.9509]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-34.4618]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[40.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Data is skipped as User's Latitude: -43.9509 and User's Longitude: -34.4618 are not within Fancode City]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Data is skipped as User's Latitude: -43.9509 and User's Longitude: -34.4618 are not within Fancode City
+at Testing.Fancode_City_Assignment.FancodeUsersTest.TestTodosCompletionForFancodeCityUsers(FancodeUsersTest.java:177)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTodosCompletionForFancodeCityUsers -->
+        <test-method signature="TestTodosCompletionForFancodeCityUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.Float)[pri:0, instance:Testing.Fancode_City_Assignment.FancodeUsersTest@6e9175d8]" started-at="2024-10-10T21:41:43 IST" name="TestTodosCompletionForFancodeCityUsers" data-provider="usersData" finished-at="2024-10-10T21:41:43 IST" depends-on-methods="Testing.Fancode_City_Assignment.FancodeUsersTest.validateSufficientUsersForFancodeCity" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-68.6102]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-47.0653]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[35.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Data is skipped as User's Latitude: -68.6102 and User's Longitude: -47.0653 are not within Fancode City]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Data is skipped as User's Latitude: -68.6102 and User's Longitude: -47.0653 are not within Fancode City
+at Testing.Fancode_City_Assignment.FancodeUsersTest.TestTodosCompletionForFancodeCityUsers(FancodeUsersTest.java:177)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTodosCompletionForFancodeCityUsers -->
+        <test-method signature="TestTodosCompletionForFancodeCityUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.Float)[pri:0, instance:Testing.Fancode_City_Assignment.FancodeUsersTest@6e9175d8]" started-at="2024-10-10T21:41:43 IST" name="TestTodosCompletionForFancodeCityUsers" data-provider="usersData" finished-at="2024-10-10T21:41:43 IST" depends-on-methods="Testing.Fancode_City_Assignment.FancodeUsersTest.validateSufficientUsersForFancodeCity" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29.4572]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-164.2990]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Data is skipped as User's Latitude: 29.4572 and User's Longitude: -164.2990 are not within Fancode City]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Data is skipped as User's Latitude: 29.4572 and User's Longitude: -164.2990 are not within Fancode City
+at Testing.Fancode_City_Assignment.FancodeUsersTest.TestTodosCompletionForFancodeCityUsers(FancodeUsersTest.java:177)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTodosCompletionForFancodeCityUsers -->
+        <test-method signature="TestTodosCompletionForFancodeCityUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.Float)[pri:0, instance:Testing.Fancode_City_Assignment.FancodeUsersTest@6e9175d8]" started-at="2024-10-10T21:41:43 IST" name="TestTodosCompletionForFancodeCityUsers" data-provider="usersData" finished-at="2024-10-10T21:41:43 IST" depends-on-methods="Testing.Fancode_City_Assignment.FancodeUsersTest.validateSufficientUsersForFancodeCity" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-31.8129]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[62.5342]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTodosCompletionForFancodeCityUsers -->
+        <test-method signature="TestTodosCompletionForFancodeCityUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.Float)[pri:0, instance:Testing.Fancode_City_Assignment.FancodeUsersTest@6e9175d8]" started-at="2024-10-10T21:41:43 IST" name="TestTodosCompletionForFancodeCityUsers" data-provider="usersData" finished-at="2024-10-10T21:41:43 IST" depends-on-methods="Testing.Fancode_City_Assignment.FancodeUsersTest.validateSufficientUsersForFancodeCity" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-71.4197]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[71.7478]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Data is skipped as User's Latitude: -71.4197 and User's Longitude: 71.7478 are not within Fancode City]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Data is skipped as User's Latitude: -71.4197 and User's Longitude: 71.7478 are not within Fancode City
+at Testing.Fancode_City_Assignment.FancodeUsersTest.TestTodosCompletionForFancodeCityUsers(FancodeUsersTest.java:177)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTodosCompletionForFancodeCityUsers -->
+        <test-method signature="TestTodosCompletionForFancodeCityUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.Float)[pri:0, instance:Testing.Fancode_City_Assignment.FancodeUsersTest@6e9175d8]" started-at="2024-10-10T21:41:43 IST" name="TestTodosCompletionForFancodeCityUsers" data-provider="usersData" finished-at="2024-10-10T21:41:43 IST" depends-on-methods="Testing.Fancode_City_Assignment.FancodeUsersTest.validateSufficientUsersForFancodeCity" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[24.8918]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[21.8984]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[45.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Data is skipped as User's Latitude: 24.8918 and User's Longitude: 21.8984 are not within Fancode City]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Data is skipped as User's Latitude: 24.8918 and User's Longitude: 21.8984 are not within Fancode City
+at Testing.Fancode_City_Assignment.FancodeUsersTest.TestTodosCompletionForFancodeCityUsers(FancodeUsersTest.java:177)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTodosCompletionForFancodeCityUsers -->
+        <test-method signature="TestTodosCompletionForFancodeCityUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.Float)[pri:0, instance:Testing.Fancode_City_Assignment.FancodeUsersTest@6e9175d8]" started-at="2024-10-10T21:41:43 IST" name="TestTodosCompletionForFancodeCityUsers" data-provider="usersData" finished-at="2024-10-10T21:41:43 IST" depends-on-methods="Testing.Fancode_City_Assignment.FancodeUsersTest.validateSufficientUsersForFancodeCity" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-14.3990]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-120.7677]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Data is skipped as User's Latitude: -14.3990 and User's Longitude: -120.7677 are not within Fancode City]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Data is skipped as User's Latitude: -14.3990 and User's Longitude: -120.7677 are not within Fancode City
+at Testing.Fancode_City_Assignment.FancodeUsersTest.TestTodosCompletionForFancodeCityUsers(FancodeUsersTest.java:177)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTodosCompletionForFancodeCityUsers -->
+        <test-method signature="TestTodosCompletionForFancodeCityUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.Float)[pri:0, instance:Testing.Fancode_City_Assignment.FancodeUsersTest@6e9175d8]" started-at="2024-10-10T21:41:43 IST" name="TestTodosCompletionForFancodeCityUsers" data-provider="usersData" finished-at="2024-10-10T21:41:43 IST" depends-on-methods="Testing.Fancode_City_Assignment.FancodeUsersTest.validateSufficientUsersForFancodeCity" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[24.6463]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-168.8889]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[40.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Data is skipped as User's Latitude: 24.6463 and User's Longitude: -168.8889 are not within Fancode City]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Data is skipped as User's Latitude: 24.6463 and User's Longitude: -168.8889 are not within Fancode City
+at Testing.Fancode_City_Assignment.FancodeUsersTest.TestTodosCompletionForFancodeCityUsers(FancodeUsersTest.java:177)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTodosCompletionForFancodeCityUsers -->
+        <test-method signature="TestTodosCompletionForFancodeCityUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.Float)[pri:0, instance:Testing.Fancode_City_Assignment.FancodeUsersTest@6e9175d8]" started-at="2024-10-10T21:41:43 IST" name="TestTodosCompletionForFancodeCityUsers" data-provider="usersData" finished-at="2024-10-10T21:41:43 IST" depends-on-methods="Testing.Fancode_City_Assignment.FancodeUsersTest.validateSufficientUsersForFancodeCity" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-38.2386]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[57.2232]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTodosCompletionForFancodeCityUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testing.Fancode_City_Assignment.FancodeUsersTest@6e9175d8]" started-at="2024-10-10T21:41:43 IST" name="tearDown" finished-at="2024-10-10T21:41:43 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testing.Fancode_City_Assignment.FancodeUsersTest -->
+    </test> <!-- FancodeUsersTestModule -->
+  </suite> <!-- Suite -->
+</testng-results>
