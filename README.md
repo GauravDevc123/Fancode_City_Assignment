@@ -51,3 +51,5 @@ Note: The default branch is "master" and the code also resides in "master".
 8. Alternatively, you can directly run the project from IDE by right clicking on testng.xml -> Run As -> 1 TestNG Suite.
 9. Verify the test execution result in Console and Results of running suite.
 10. View the report by going to project hierarchy -> test-output -> extentReport.html (Open the file in a browser)
+
+## Note: Sample report present in project repository under test-output -> extentReport.html
